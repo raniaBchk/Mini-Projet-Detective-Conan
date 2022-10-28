@@ -1,0 +1,171 @@
+*{
+
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+   /* background-image: url(1.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    */
+}
+
+header#top-header{
+  
+    background-image: url(R.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header#top-header a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header#top-header .content{
+   margin: 0 12%;
+   /* background-color: blueviolet; */
+   height: 13%;
+}
+
+header#top-header .content .logo{
+    margin-top: 21px;
+  float: left;
+}
+
+header#top-header .content .logo img{
+    margin: 1% 0;
+    width: 20%;
+   }
+header#top-header .content nav#navbar{
+    float: right;
+    /* background-color: aquamarine; */
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+
+header#top-header .content nav#navbar ul li{
+    float: left;
+   
+}
+
+header#top-header .content nav#navbar ul li a{
+    padding: 7px 0px;
+    margin: 0px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b0913;
+  }
+ 
+  
+  header#top-header .content nav#navbar ul li a#contact:hover{
+    color: #ffffff;
+    background-color: #0b0913 ;
+  }
+header#top-header .content nav#navbar ul li a#contact{
+    background-color: #a2ffff;
+    border-radius: 10px;
+    padding: 7px 20px;
+  }
+
+header#top-header .content nav#navbar ul li a#about{
+    border-bottom: 2px solid #ffffff;
+  }
+header#top-header .content .logo h1{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+header#top-header .content .logo h1 span{
+    color: #a2ffff;
+}
+p,th,td{
+    color: black;
+}
+
+
+img{
+    /* px absolute t93d daymen hka f g3 les ecrans*/
+     /* % relative 3la hseb les ecrans w browsers */
+     width: 30%;
+}
+
+section,footer{
+    background-color: rgb(150, 85, 85);
+}
+
+.profile-photo{
+    width: 100%;
+}
+
+p.about-text{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav#navbar > ul{
+
+    /* > ndiroha ki ykon direct child z3ma ul li, on sible l'enfant mel parent */
+    list-style: none;
+}
+
+
+/* > ndiroha ki ykon fils direct */
+nav#navbar > ul > li > a{
+
+    text-decoration: none;
+    
+}
+
+
+/* acces direct a la balise apres*/
+/* nav#navbar a{
+
+    font-size: 18px;
+} */
+
+
+/* nav#navbar li{
+    display: inline-block;
+    font-size: 24px; 
+  
+} */
+
+header#top-header {
+ height: 100vh;
+} 
+
+
+/* #header-img{
+    width: 500px;
+   transition: all 1s;
+    border: 2px red dotted;
+   
+    
+    
+}
+
+img#header-img:hover{
+    width: 500px;
+} */
+
+/* 
+#char-table :nth-child(1){
+   /* 
+   tableau lawel
+   tt les enfants pair de type tableau qui sont impair lokn ndiro even
+   background-color: red;
+} */
+
+#char-table tr:nth-child(even){
+    background-color: red;
+}
+
+#char-table tr:nth-child(odd){
+    background-color: rgb(240, 255, 23);
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}
